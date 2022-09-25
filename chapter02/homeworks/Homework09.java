@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Homework09 {
 	public static void main(String[] args) {
+				
+		Scanner input = new Scanner(System.in);
 		
 		//Physics: acceleration
-		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Enter v0, v1, and t: ");
 		double startingVelocity = input.nextDouble();

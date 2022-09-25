@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Homework07 {
 	public static void main(String[] args) {
 		
-		//Find the number of years
 		Scanner input = new Scanner(System.in);
 		
+		//Find the number of years
+				
 		System.out.print("Enter the number of minutes: ");
 		int minute = input.nextInt();
 		

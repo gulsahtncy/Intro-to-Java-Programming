@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Homework06 {
 	public static void main(String[] args) {
 		
-		//Sum the digits in an integer
 		Scanner input = new Scanner(System.in);
 		
+		//Sum the digits in an integer
+				
 		System.out.print("Enter a number between 0 and 1000: ");
 		int number = input.nextInt();
 		

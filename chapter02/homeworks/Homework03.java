@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class Homework03 {
 	public static void main(String[] args) {
+		
 		Scanner input = new Scanner(System.in);		
 		
 		//Convert feet into meters
+		
 		System.out.print("Enter a value for feet: ");
 		double feet = input.nextDouble();
 		

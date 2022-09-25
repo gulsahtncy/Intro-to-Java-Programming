@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Homework05 {
 	public static void main(String[] args) {
 		
-		//Financial application: calculate tips
 		Scanner input = new Scanner(System.in);
 		
+		//Financial application: calculate tips
+				
 		System.out.print("Enter the subtotal and a gratuity rate: ");
 		double subtotal = input.nextDouble();
 		double gratuityRate = input.nextDouble();
@@ -15,6 +16,6 @@ public class Homework05 {
 		double gratuity = (subtotal * gratuityRate) / 100;
 		double total = subtotal + gratuity;
 		
-		System.out.println("The gratuity is " + gratuity + " and total is " + total);	
+		System.out.println("The gratuity is " + gratuity + " and total is $" + total);	
 	}
 }

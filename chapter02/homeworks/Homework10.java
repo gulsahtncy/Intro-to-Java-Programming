@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Homework10 {
 	public static void main(String[] args) {
+				
+		Scanner input = new Scanner(System.in);
 		
 		//Science: calculating energy
-		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Enter the amount of water in kilograms: ");
 		double waterKilograms = input.nextDouble();

@@ -3,7 +3,7 @@ package chapter02.exercises;
 public class Exercise11 {
 		
 		//Show current time
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 		
 		// Obtain the total milliseconds since midnight, Jan 1, 1970
 		long totalMilliseconds = System.currentTimeMillis();
