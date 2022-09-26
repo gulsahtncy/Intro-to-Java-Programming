@@ -8,7 +8,7 @@ public class Exercise17 {
 	public static void main(String[] args) {
 	Scanner input = new Scanner(System.in);
 	
-	System.out.println("Enter an money in double, for example 11.56: ");
+	System.out.print("Enter an money in double, for example 11.56: ");
 	double money = input.nextDouble();
 	
 	int remainingMoney = (int)(money * 100);

@@ -9,9 +9,13 @@ public class Homework22 {
 		
 		//Financial application: monetary units
 		
-		System.out.println();
-		System.out.println();
+		System.out.println("Enter an amount in double, for example 11.56 : ");
+		double amount = input.nextDouble();
 		
+		int dolars = (int)amount;
+		int cents = (int)(amount * 100) % 100;
+		
+		
+		System.out.println("Your amount consist of " + dolars + " dolars and " + cents + " cents." );		
 	}
-
 }
