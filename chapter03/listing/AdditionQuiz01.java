@@ -1,10 +1,10 @@
-package chapter03.exercises;
+package chapter03.listing;
 
 import java.util.Scanner;
 
-public class Exercise01 {
+public class AdditionQuiz01 {
 	public static void main(String[] args) {
-			
+		
 		//Addition Quiz
 		
 		/* for (int i = 0; i < 10; i++) {
@@ -28,3 +28,5 @@ public class Exercise01 {
 				(number1 + number2 == answer));	
 	}
 }
+
+
