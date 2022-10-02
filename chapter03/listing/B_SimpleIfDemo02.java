@@ -2,7 +2,7 @@ package chapter03.listing;
 
 import java.util.Scanner;
 
-public class SimpleIfDemo02 {
+public class B_SimpleIfDemo02 {
 	public static void main(String[] args) {
 		
 		   //Simple If Demo
