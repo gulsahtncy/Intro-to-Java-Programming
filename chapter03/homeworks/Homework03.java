@@ -27,7 +27,7 @@ public class Homework03 {
 		if ((a * d - b * c) != 0) {
 		System.out.println("x is " + x + " and y is " + y);		
 		}
-		else  {
+		else {
 		System.out.println("The equation has no solution");	
 		}	
 	}
