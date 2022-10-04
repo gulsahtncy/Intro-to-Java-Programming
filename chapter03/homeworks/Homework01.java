@@ -25,6 +25,6 @@ public class Homework01 {
 				System.out.println("The equation has one root " + realRoot3);
 		}	
 		else
-				System.out.println("The equation has no real roots");					
+				System.out.println("The equation has no real roots");	
 	}
 }
