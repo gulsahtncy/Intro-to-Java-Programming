@@ -17,7 +17,7 @@ public class Homework02 {
 		int answer = input.nextInt();
 		
 		System.out.println(number1 + " + " + number2 + " + " + number3 + " = " + answer + " is " +
-			);	
+				(number1 + number2 + number3 == answer));	
 	}
 }
 		
