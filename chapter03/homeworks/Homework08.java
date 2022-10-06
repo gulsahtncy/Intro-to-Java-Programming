@@ -29,7 +29,7 @@ public class Homework08 {
 		 x = y;
 	     y = temp3;
 		}
-	
+		
 		System.out.println(x + " " + y + " " + z);	
 	}		
 }			
