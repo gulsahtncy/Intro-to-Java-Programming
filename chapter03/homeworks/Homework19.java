@@ -13,11 +13,11 @@ public class Homework19 {
 		int y = input.nextInt();
 		int z = input.nextInt();
 		
-		if (x + y > z || x + z > y || y + z > x) {
-			System.out.println("The perimeter of a triangle is " + (x + y + z));			
+		if (x + y < z || x + z < y || y + z < x) {
+			System.out.println("The input is invalid.");			
 		}
 		else
-			System.out.println("The input is invalid.");				
+			System.out.println("The perimeter of a triangle is " + (x + y + z));				
 	}
-
+	
 }
