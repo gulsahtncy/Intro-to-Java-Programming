@@ -44,8 +44,7 @@ public class I_ChineseZodiac09 {
 			System.out.println("horse");
 			break;
 		case 11:
-			System.out.println("sheep");
-			break;
+			System.out.println("sheep");			
 		}
 	}
 }

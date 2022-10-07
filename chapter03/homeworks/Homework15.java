@@ -28,9 +28,9 @@ public class Homework15 {
 		// Check the guess
 	if (guess == lottery)
 		System.out.println("Exact match: you win $10,000");
-	else if ((guessDigit1 == lotteryDigit1 && guessDigit1 == lotteryDigit2 && guessDigit1 == lotteryDigit3) 
-		  || (guessDigit2 == lotteryDigit1 && guessDigit2 == lotteryDigit2 && guessDigit2 == lotteryDigit3)
-		  || (guessDigit2 == lotteryDigit1 && guessDigit2 == lotteryDigit2 && guessDigit2 == lotteryDigit3))
+	else if ((guessDigit1 == lotteryDigit1 || guessDigit1 == lotteryDigit2 || guessDigit1 == lotteryDigit3) 
+		  && (guessDigit2 == lotteryDigit1 || guessDigit2 == lotteryDigit2 || guessDigit2 == lotteryDigit3)
+		  && (guessDigit2 == lotteryDigit1 || guessDigit2 == lotteryDigit2 || guessDigit2 == lotteryDigit3))
 	    System.out.println("Match all digits: you win $3,000");
 	else if (guessDigit1 == lotteryDigit1 || guessDigit1 == lotteryDigit2 || guessDigit1 == lotteryDigit3
 		  || guessDigit2 == lotteryDigit1 || guessDigit2 == lotteryDigit2 || guessDigit2 == lotteryDigit3
