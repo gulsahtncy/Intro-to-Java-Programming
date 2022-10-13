@@ -30,5 +30,6 @@ public class A_ComputeAngles {
 						Math.round(A * 100) / 100.0 + " " +
 						Math.round(B * 100) / 100.0 + " " + 
 						Math.round(C * 100) / 100.0);
+		
 	}
 }
