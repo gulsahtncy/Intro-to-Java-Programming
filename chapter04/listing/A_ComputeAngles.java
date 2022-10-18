@@ -6,8 +6,7 @@ public class A_ComputeAngles {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// Prompt the user to enter three points
-		
+		// Prompt the user to enter three points		
 		System.out.print("Enter three points: ");
 		double x1 = input.nextDouble();
 		double y1 = input.nextDouble();
@@ -30,8 +29,6 @@ public class A_ComputeAngles {
 		System.out.println("The three angles are " + 
 						Math.round(A * 100) / 100.0 + " " +
 						Math.round(B * 100) / 100.0 + " " + 
-						Math.round(C * 100) / 100.0);
-	
-		
+						Math.round(C * 100) / 100.0);		
 	}
 }
