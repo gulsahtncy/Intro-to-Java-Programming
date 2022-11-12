@@ -1,11 +1,9 @@
 package chapter01.exercises;
 
 public class Exercise01 {
-	
-	//Main method
 	public static void main(String[] args) {
 		
-		//Display message Welcome to Java! on the console
-		System.out.println("Welcome to Java!");
-	}
+		System.out.println("3.5 * 4 / 2 - 2.5 is ");
+		System.out.println(3.5 * 4 / 2 - 2.5);
+		}
 }
