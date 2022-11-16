@@ -1,4 +1,4 @@
-package chapter03.listing;
+	package chapter03.listing;
 
 import java.util.Scanner;
 
@@ -35,11 +35,11 @@ public class E_ComputeTax05 {
 				tax = 8350 * 0.10 + (33950 - 8350) * 0.15 + (82250 - 33950) * 0.25 + (171550 - 82250) * 0.28
 						+ (372950 - 171550) * 0.33 + (income - 372950) * 0.35;
 		} else if (status == 1) { // Compute tax for married file jointly
-			// Left as exercise
+			
 		} else if (status == 2) { // Compute tax for married separately
-			// Left as exercise
+			
 		} else if (status == 3) { // Compute tax for head of household
-			// Left as exercise
+			
 		} else {
 			System.out.println("Error: invalid status");
 			System.exit(1);

@@ -9,8 +9,8 @@ public class A_AdditionQuiz01 {
 		
 		/* for (int i = 0; i < 10; i++) {
 		  		System.out.println(Math.random());
-		 }
-		 */ 
+		 } */
+		  
 		//0 <= Math.random() < 1	
 		//int number1 = (int)(Math.random() * 10);
 		//int number2 = (int)(Math.random() * 10);
