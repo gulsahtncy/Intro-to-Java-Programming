@@ -7,6 +7,6 @@ public class Exercise25 {
 		Scanner input = new Scanner(System.in);
 		
 		int age = input.nextInt();				
-		System.out.println(age > 13 && age < 18 );
+		System.out.println(age > 13 && age < 18);
 	}
 }
