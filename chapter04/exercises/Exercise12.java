@@ -5,21 +5,22 @@ public class Exercise12 {
 		
 		// i will be set to 65
 		char c = 'A';
-		int i = (int)c;
+		int a = (int)c;
+		System.out.println(a);
 		
 		// i will be set to 1000 
 		float f = 1000.34f;
-		int i = (int)f;
+		int b = (int)f;
+		System.out.println(b);
 		
 		// i will be set to 1000  
 		double d = 1000.34;
-		int i = (int)d;
+		int e = (int)d;
+		System.out.println(e);
 		
 		// c will be set to 'a'
-		int i = 97;
-		char c = (char)i;
-	
-		System.out.println(i);
-	
+		int g = 97;
+		char h = (char)g;
+		System.out.println(h);
 	}
 }
