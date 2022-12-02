@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Homework17 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		
 		// Days of a month
 
 		System.out.println("Enter a year: ");
