@@ -12,9 +12,9 @@ public class A_RepeatAdditionQuiz {
 		System.out.println("What is " + number1 + " + " + number2 + "? ");
 		int answer = input.nextInt();
 		
-		// int wrong counter = 0;
+		// int wrongCount = 0;
 		while (number1 + number2 != answer) {
-		    // wrong counter++;
+		    // wrongCount++;
 			System.out.println("Wrong answer. Try again. What is "
 					 + number1 + " + " + number2 + "? ");
 			answer = input.nextInt();

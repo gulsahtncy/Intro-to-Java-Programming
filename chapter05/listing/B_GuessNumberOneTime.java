@@ -22,6 +22,6 @@ public class B_GuessNumberOneTime {
 		else
 			System.out.println("Your guess is too low");	
 		
-		//**When you run this program, it prompts the user to enter a guess only once.**
+		// **When you run this program, it prompts the user to enter a guess only once.**
 	}	
 }
