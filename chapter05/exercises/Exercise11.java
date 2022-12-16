@@ -6,10 +6,10 @@ public class Exercise11 {
 		for (;;) {
 			// Do something
 		}
-		
-		/* The loop in this check point will iterate indefinitely 
-		 * and repeat the execution of the instructions in 
-		 * the body on each iteration.
+
+		/*
+		 * The loop in this check point will iterate indefinitely and repeat the
+		 * execution of the instructions in the body on each iteration.
 		 */
 	}
 }

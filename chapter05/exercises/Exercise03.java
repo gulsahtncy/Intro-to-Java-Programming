@@ -8,17 +8,21 @@ public class Exercise03 {
 		while (i < 10)
 			if (i % 2 == 0)
 				System.out.println(i);
-		/* The loop body will be run an infinite number of times. There will be no
-		 * output because i is 1 all the time. */
+		/*
+		 * The loop body will be run an infinite number of times. There will be no
+		 * output because i is 1 all the time.
+		 */
 
 		// B
 		int i = 1;
 		while (i < 10)
 			if (i % 2 == 0)
 				System.out.println(i++);
-		/* The loop body will be run an infinite number of times. There will be no
-		 * output because i is 1 all the time. */
-	
+		/*
+		 * The loop body will be run an infinite number of times. There will be no
+		 * output because i is 1 all the time.
+		 */
+
 		// C
 		int i = 1;
 		while (i < 10)
