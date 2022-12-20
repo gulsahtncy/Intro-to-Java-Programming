@@ -8,7 +8,7 @@ public class Exercise15 {
 		 * loops.
 		 */
 
-		// for loop can be converted into a while loop.
+		// A for loop can be converted into a while loop.
 
 		// Some benefits of for loops are:
 
