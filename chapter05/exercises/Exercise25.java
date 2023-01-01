@@ -16,6 +16,7 @@ public class Exercise25 {
 		 */
 
 		int i = 0;
+		int sum = 0;
 		while (i < 4) {
 			if (i % 3 == 0) {
 				i++;

@@ -10,9 +10,10 @@ public class Exercise24B {
 			if (balance < 9)
 				continue;
 			balance = balance - 9;
+
+			System.out.println("Balance is " + balance);
 		}
-		System.out.println("Balance is " + balance);
-	}	
-	// The loop in this second example will never end because continue is mistakenly
-	// used instead of break.
+	}
 }
+// The loop in this second example will never end because continue is mistakenly
+// used instead of break.
