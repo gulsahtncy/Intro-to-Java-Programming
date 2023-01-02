@@ -11,7 +11,6 @@ public class L_TestBreak {
 			if (sum >= 100)
 				break;
 		}
-
 		System.out.println("The number is " + number);
 		System.out.println("The sum is " + sum);
 	}
