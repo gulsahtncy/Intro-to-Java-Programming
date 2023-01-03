@@ -17,10 +17,11 @@ public class N_Palindrome {
 				isPalindrome = false;
 				break;
 			}
+		}
 			if (isPalindrome) {
 				System.out.println(s + " is a palindrome");
 			} else
 				System.out.println(s + " is not a palindrome");	
-		}
+		
 	}
 }
