@@ -2,8 +2,10 @@ package chapter05.homeworks;
 
 import java.util.Scanner;
 
-public class Homework1 {
+public class Homework01 {
 	public static void main(String[] args) {
+
+		// Count positive and negative numbers and compute the average of numbers
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Enter an integer, the input ends if it is 0: ");
@@ -23,12 +25,10 @@ public class Homework1 {
 				negatives++;
 			else
 				break;
-}
-			
+
 			sum += numbers;
 			average = sum / (positives + negatives);
-
-		
+		}
 		System.out.println("The number of positives is " + positives);
 		System.out.println("The number of negatives is " + negatives);
 		System.out.println("The total is " + sum);
