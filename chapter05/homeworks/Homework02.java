@@ -24,21 +24,20 @@ public class Homework02 {
 			// Prompt the student to answer "What is number1 + number2?"
 			System.out.print("What is " + number1 + " + " + number2 + "? ");
 			int answer = input.nextInt();
-		
+
 			if (number1 + number2 == answer) {
 				System.out.println("You are correct!");
 				correctCount++; // Increase the correct answer count
-				
-			} else 
+
+			} else
 				System.out.println(
 						"Your answer is wrong.\n" + number1 + " + " + number2 + " should be " + (number1 + number2));
-				
-			// Increase the question count
-			count++;			
-			output += "\n" + number1 + "+" + number2 + "=" + answer
-					+ ((number1 + number2 == answer) ? " correct" : " wrong");		
-		}
 
+			// Increase the question count
+			count++;
+			output += "\n" + number1 + "+" + number2 + "=" + answer
+					+ ((number1 + number2 == answer) ? " correct" : " wrong");
+		}
 		long endTime = System.currentTimeMillis();
 		long testTime = endTime - startTime;
 
@@ -46,7 +45,5 @@ public class Homework02 {
 		System.out.println(count + " questions were asked.");
 		System.out.println("You gave " + correctCount + " correct answers.");
 		System.out.println(output);
-
 	}
-
 }
