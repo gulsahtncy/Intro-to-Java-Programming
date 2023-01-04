@@ -1,30 +1,29 @@
 package chapter05.homeworks;
 
+import java.util.Scanner;
+
 public class Homework08 {
 	public static void main(String[] args) {
-		
-		int totalCost = 0;		// Accumulate total cost of four years tution
-		int tuition = 10000;
-		int tuitionTenthYear = 0;
+		Scanner input = new Scanner(System.in);
 
-		for (int year = 1; year <= 14; year++) {
-			// Increase tution by 5% every year
-			tuition += (tuition * 0.05);  
+		// Find the highest score
+		System.out.print("Enter the number of students: ");
+		int numberOfStudents = input.nextInt();
 
-			if (year > 10) // Test for after 10 years
-				totalCost += tuition; // Accumulate tution cost
+		System.out.print("Enter each student’s name and score (i.e. John 85): ");
+		String studentName = input.next();
+		int score = input.nextInt();
 
-			// Cost of tution in ten years
-			if (year == 10)
-				tuitionTenthYear = tuition; 
+		int i = 1;
+		while (i < numberOfStudents) {
+			String studentName1 = input.next();
+			int score1 = input.nextInt();
+			i++;
+			if (score1 > score) {
+				score = score1;
+				studentName = studentName1;
+			}
 		}
-
-		// Display the cost of tution in ten years
-		System.out.println("Tuition in ten years: $" + tuitionTenthYear);
-
-		// Display the cost of four years' worth of tution after tenth year
-		System.out.println("Total cost for four years' worth of tuition" +
-			" after the tenth year: $" + totalCost);
+		System.out.println("The highest score is " + studentName + "'s score, it is " + score);
 	}
-
 }
