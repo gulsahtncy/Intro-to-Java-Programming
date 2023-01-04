@@ -13,7 +13,6 @@ public class Homework06 {
 			System.out.printf("\t|\t");
 			System.out.printf("%-11d%.3f\n", kilometers, (kilometers / 1.609));
 			kilometers += 5;
-
 		}
 	}
 }
