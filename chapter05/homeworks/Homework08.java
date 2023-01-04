@@ -6,7 +6,7 @@ public class Homework08 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		// Find the highest score
+		// Find the two highest scores
 		System.out.print("Enter the number of students: ");
 		int numberOfStudents = input.nextInt();
 
