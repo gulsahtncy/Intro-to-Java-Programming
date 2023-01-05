@@ -8,8 +8,9 @@ public class Homework12 {
 
 		while (number < 1200) {
 			number++;
-			if (Math.pow(number, 2) > 12000)
+			if (Math.pow(number, 2) > 12000) {
 				break;
+			}
 		}
 		System.out.println(number);
 	}
