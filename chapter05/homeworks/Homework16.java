@@ -1,6 +1,7 @@
 package chapter05.homeworks;
 
-public class Homework15 {
+public class Homework16 {
+
 	public static void main(String[] args) {
 		int count = 0;
 		int i = '!';
