@@ -1,5 +1,5 @@
 package chapter06.homeworks;
 
-public class Homework1 {
+public class Homework01 {
 
 }
