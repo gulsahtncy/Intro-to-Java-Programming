@@ -11,9 +11,7 @@ public class Exercise13_A {
 		if (value1 > value2)
 			max = value1;
 		else
-			max = value2;
-		
-		System.out.println(max);
+			max = value2;			
 	}
 }
 

@@ -30,5 +30,4 @@ public class Exercise14 {
 	| max     0 |
 	-------------
 	
-
 }
