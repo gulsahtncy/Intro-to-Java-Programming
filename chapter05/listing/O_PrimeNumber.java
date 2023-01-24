@@ -32,7 +32,7 @@ public class O_PrimeNumber {
 					System.out.println(number);
 				} else
 					System.out.print(number + " ");
-			}			
+			}
 			// Check if the next number is prime
 			number++;
 		}
