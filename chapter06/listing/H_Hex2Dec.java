@@ -8,31 +8,29 @@ public class H_Hex2Dec {
 
 		System.out.print("Enter a hex number: ");
 		String hex = input.nextLine();
-					 
-        int dec = hex2Dec(hex.toUpperCase());
-        System.out.println("The decimal value for hex number " + hex + " is " + dec);
+
+		int dec = hexToDecimal(hex.toUpperCase());
+		System.out.println("The decimal value for hex number " + hex + " is " + dec);
 
 	}
 
-	public static int hex2Dec(String hex) {
-        int dec = 0;
+	public static int hexToDecimal(String hex) {
+		int dec = 0;
 
-        int digitValue = 1;
-        for (int i = hex.length() - 1; 0 <= i; i--) {
-            char hexChar = hex.charAt(i);
-            int decValue = hexCharToDec(hexChar);
-            dec += decValue * digitValue;
-            digitValue *= 16;
-        }
-        return dec;
-    }
-	  public static int hexCharToDec(char ch) {
-	        if ('A' <= ch && ch <= 'F')
-	            return ch - 'A' + 10;
-	        else
-	            return ch - '0';
-	    }
-		
-
+		int digitValue = 1;
+		for (int i = hex.length() - 1; 0 <= i; i--) {
+			char hexChar = hex.charAt(i);
+			int decValue = hexCharToDecimal(hexChar);
+			dec += decValue * digitValue;
+			digitValue *= 16;
+		}
+		return dec;
 	}
 
+	public static int hexCharToDecimal(char ch) {
+		if ('A' <= ch && ch <= 'F')
+			return ch - 'A' + 10;
+		else
+			return ch - '0';
+	}
+}
