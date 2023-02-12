@@ -1,5 +1,7 @@
 package chapter06.listing;
 
+import java.util.Scanner;
+
 public final class L_PrintCalendar {
 
 	/** Main method */
@@ -29,7 +31,7 @@ public final class L_PrintCalendar {
 
 	/** Print the month title, e.g., March 2012 */
 	public static void printMonthTitle(int year, int month) {
-		System.out.println(" " + getMonthName(month) + " " + year);
+		System.out.println(" 	  " + getMonthName(month) + " " + year);
 		System.out.println("-----------------------------");
 		System.out.println(" Sun Mon Tue Wed Thu Fri Sat");
 	}
@@ -79,27 +81,27 @@ public final class L_PrintCalendar {
 	}
 
 	/** Print month body */
-		public static void printMonthBody(int year, int month) {
-			 // Get start day of the week for the first date in the month
-			 int startDay = getStartDay(year, month)
-			
-			 // Get number of days in the month
-			 int numberOfDaysInMonth = getNumberOfDaysInMonth(year, month);
-			
-			 // Pad space before the first day of the month
-			 int i = 0;
-			 for (i = 0; i < startDay; i++)
-			 System.out.print(" ");
-			
-			 for (i = 1; i <= numberOfDaysInMonth; i++) {
-			 System.out.printf("%4d", i);
-			
-			 if ((i + startDay) % 7 == 0)
-			 System.out.println();
-			 }
-			
-			 System.out.println();
-			 }
+	public static void printMonthBody(int year, int month) {
+		// Get start day of the week for the first date in the month
+		int startDay = getStartDay(year, month);
+
+		// Get number of days in the month
+		int numberOfDaysInMonth = getNumberOfDaysInMonth(year, month);
+
+		// Pad space before the first day of the month
+		int i = 0;
+		for (i = 0; i < startDay; i++)
+			System.out.print("    ");
+
+		for (i = 1; i <= numberOfDaysInMonth; i++) {
+			System.out.printf("%4d", i);
+
+			if ((i + startDay) % 7 == 0)
+				System.out.println();
+		}
+
+		System.out.println();
+	}
 
 	/** Get the start day of month/1/year */
 	public static int getStartDay(int year, int month) {
@@ -145,6 +147,5 @@ public final class L_PrintCalendar {
 	/** Determine if it is a leap year */
 	public static boolean isLeapYear(int year) {
 		return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
-
 	}
 }
