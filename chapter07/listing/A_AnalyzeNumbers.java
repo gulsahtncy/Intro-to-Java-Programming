@@ -1,10 +1,14 @@
 package chapter07.listing;
 
+import java.util.Scanner;
+
 public class A_AnalyzeNumbers {
 	public static void main(String[] args) {
-		java.util.Scanner input = new java.util.Scanner(System.in);
-		System.out.print("Enter the number of items: ");
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("Enter the number of items: ");
 		int n = input.nextInt();
+
 		double[] numbers = new double[n];
 		double sum = 0;
 
@@ -23,7 +27,5 @@ public class A_AnalyzeNumbers {
 
 		System.out.println("Average is " + average);
 		System.out.println("Number of elements above the average is " + count);
-
 	}
-
 }
