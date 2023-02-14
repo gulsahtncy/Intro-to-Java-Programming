@@ -25,6 +25,5 @@ public class B_DeckOfCards {
 			String rank = ranks[deck[i] % 13];
 			System.out.println("Card number " + deck[i] + ": " + rank + " of " + suit);
 		}
-
 	}
 }
