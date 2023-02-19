@@ -1,26 +1,37 @@
 package chapter07.listing;
 
 public class C_TestPassArray {
+
+	/** Main method */
 	public static void main(String[] args) {
-		int x = 1; // x represents an int value
-		int[] y = new int[10]; // y represents an array of int values
-		String a = "gülşah";
-		char k = a.charAt(0);
-		
-		m(x, y, a); // Invoke m with arguments x and y
-		System.out.println(k); 
-		
-		System.out.println("x is " + x);
-		System.out.println("y[0] is " + y[0]);
-		
-		
+		int[] a = { 1, 2 };
+
+		// Swap elements using the swap method
+		System.out.println("Before invoking swap");
+		System.out.println("array is {" + a[0] + ", " + a[1] + "}");
+		swap(a[0], a[1]);
+		System.out.println("After invoking swap");
+		System.out.println("array is {" + a[0] + ", " + a[1] + "}");
+
+		// Swap elements using the swapFirstTwoInArray method
+		System.out.println("Before invoking swapFirstTwoInArray");
+		System.out.println("array is {" + a[0] + ", " + a[1] + "}");
+		swapFirstTwoInArray(a);
+		System.out.println("After invoking swapFirstTwoInArray");
+		System.out.println("array is {" + a[0] + ", " + a[1] + "}");
 	}
 
-	public static void m(int number, int[] numbers, String a) {
-		number = 1001; // Assign a new value to number
-		numbers[0] = 5555; // Assign a new value to numbers[0]
-		a = "Hüseyin";
-		
+	/** Swap two variables */
+	public static void swap(int n1, int n2) {
+		int temp = n1;
+		n1 = n2;
+		n2 = temp;
 	}
 
+	/** Swap the first two elements in the array */
+	public static void swapFirstTwoInArray(int[] array) {
+		int temp = array[0];
+		array[0] = array[1];
+		array[1] = temp;
+	}
 }
