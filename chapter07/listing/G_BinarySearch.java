@@ -31,6 +31,6 @@ public class G_BinarySearch {
 			else
 				low = mid + 1;
 		}
-		return -low -1; // Now high < low
+		return -low -1; // Now high < low, key not found
 	}
 }
