@@ -30,4 +30,9 @@ public class I_Calculator {
 		// Display result
 		System.out.println(args[0] + ' ' + args[1] + ' ' + args[2] + " = " + result);
 	}
+{
+		
+		System.out.println("3.5 * 4 / 2 - 2.5 is ");
+		System.out.println(3.5 * 4 / 2 - 2.5);
+		}
 }
