@@ -1,5 +1,5 @@
 package chapter01.exercises;
 
-public class Exercise02 {
+public class Exercise32 {
 
 }
