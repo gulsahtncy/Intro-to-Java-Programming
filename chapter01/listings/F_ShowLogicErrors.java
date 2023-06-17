@@ -3,7 +3,7 @@ package chapter01.listings;
 public class F_ShowLogicErrors {
 
 	/*
-	 * System.out.println("Celsius 35 is Fahrenheit degree "); 
+	 * System.out.println("Celsius 35 is Fahrenheit degree"); 
 	 * System.out.println((9 / 5) * 35 + 32);
 	 */
 
