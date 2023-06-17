@@ -1,6 +1,7 @@
 package chapter01.listings;
 
 public class B_WelcomeWithThreeMessages {
+	
 	public static void main(String[] args) {
 
 		System.out.println("Programming is fun!");

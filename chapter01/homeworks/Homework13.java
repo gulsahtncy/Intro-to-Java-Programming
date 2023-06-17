@@ -5,8 +5,8 @@ public class Homework13 {
 		
 		// Algebra: solve 2 * 2 linear equations
 		
-		/* ax + by = e      x = (ed - bf) / (ad - bc) 	  
-	     * cx + dy = f      y = (af - ec) / (ad - bc)         
+		/*  ax + by = e      x = (ed - bf) / (ad - bc) 	  
+	     *  cx + dy = f      y = (af - ec) / (ad - bc)         
 	     */
 		
 		System.out.print("x = ");

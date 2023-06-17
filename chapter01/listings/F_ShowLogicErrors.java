@@ -8,6 +8,7 @@ public class F_ShowLogicErrors {
 	 */
 
 	// ShowLogicErrors.java: Program contains logic errors
+	
 	public static void main(String[] args) {
 
 		System.out.println("Celsius 35 is Fahrenheit degree ");
