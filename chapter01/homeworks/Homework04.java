@@ -2,7 +2,7 @@ package chapter01.homeworks;
 
 public class Homework04 {
 	
-	//Print a table
+	// Print a table
 	
 	public static void main(String[] args) {		
 		System.out.println("a     a^2     a^3");
