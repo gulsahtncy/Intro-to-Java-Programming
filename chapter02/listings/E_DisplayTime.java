@@ -14,5 +14,4 @@ public class E_DisplayTime {
 	    System.out.println(seconds + " seconds is " + minutes + 
 	      " minutes and " + remainingSeconds + " seconds");  
 	  }
-
 }
