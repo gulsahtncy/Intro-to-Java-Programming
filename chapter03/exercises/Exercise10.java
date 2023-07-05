@@ -5,13 +5,15 @@ import java.util.Scanner;
 public class Exercise10 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		
+
 		int score = input.nextInt();
 
-		/*The problem with the code in this checkpoint is that only D or F 
-		* will be printed. D will be printed whenever score is 60 or more, 
-		* F is printed if score is less than 60.*/
-		
+		/*
+		 * The problem with the code in this checkpoint is that only D or F will be
+		 * printed. D will be printed whenever score is 60 or more, and F is printed if
+		 * score is less than 60.
+		 */
+
 		if (score >= 60.0)
 			System.out.println("D");
 		else if (score >= 70.0)

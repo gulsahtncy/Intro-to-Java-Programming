@@ -11,9 +11,9 @@ public class Exercise09 {
 		double b = 1;
 		double c = 1;
 		
-		double sonuc = ((3 + 4 * x) / 5) 
+		double result = ((3 + 4 * x) / 5) 
 				- ((10 * (y  - 5) * (a + b + c)) / x)
 				+ (9 * (4 / x + (9 + x) / y));
-		System.out.println(sonuc);
+		System.out.println(result);
 	}
 }

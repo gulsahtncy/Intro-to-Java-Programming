@@ -13,8 +13,8 @@ public class Homework03 {
 		double feet = input.nextDouble();
 		
 		//one foot is 0.305 meter
-		double meters = feet * 0.305;
+		double meter = feet * 0.305;
 		
-		System.out.println(feet + " feet is " + meters + " meters");		
+		System.out.println(feet + " feet is " + meter + " meters");		
 	}
 }

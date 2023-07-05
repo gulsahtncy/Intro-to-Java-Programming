@@ -10,9 +10,9 @@ public class Homework01 {
 		//Convert Celsius to Fahrenheit
 		
 		System.out.print("Enter a degree in Celsius: " );
-		int santigrat = input.nextInt();
+		int celcius = input.nextInt();
 		
-		double fahrenheit = (9.0 / 5) * santigrat + 32;
-		System.out.println(santigrat + " Celsius is " + fahrenheit + " Fahrenheit ");	
+		double fahrenheit = (9.0 / 5) * celcius + 32;
+		System.out.println(celcius + " Celsius is " + fahrenheit + " Fahrenheit ");	
 	}
 }

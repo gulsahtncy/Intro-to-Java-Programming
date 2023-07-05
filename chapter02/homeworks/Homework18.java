@@ -11,12 +11,12 @@ public class Homework18 {
 		b = 2;
 		System.out.println(a + "    " + b + "    " + (int)Math.pow(a, b));
 		
-		a++;
-		b++;
+		++a;
+		++b;
 		System.out.println(a + "    " + b + "    " + (int)Math.pow(a, b));
 		
-		a++;
-		b++;
+		++a;
+		++b;
 		System.out.println(a + "    " + b + "    " + (int)Math.pow(a, b));
 		
 		a++;
