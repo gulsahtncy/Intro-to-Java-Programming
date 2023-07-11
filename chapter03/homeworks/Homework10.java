@@ -6,8 +6,8 @@ public class Homework10 {
 	public static void main(String[] args) {
 		
 		//Game: addition quiz
-		int number1 = (int) (Math.random() * 100) + 10;
-		int number2 = (int) (Math.random() * 100) + 10;
+		int number1 = (int) (Math.random() * 90) + 10;
+		int number2 = (int) (Math.random() * 90) + 10;
 
 		// 2. Prompt the student to answer : what is number1 + number2?
 		System.out.print("What is " + number1 + " + " + number2 + "? ");

@@ -8,10 +8,10 @@ public class Homework05 {
 		
 		//Find future dates
 		
-		System.out.println("Enter today's day(for example for sunday enter 0): "); 
+		System.out.print("Enter today's day(for example for sunday enter 0 - saturday enter 63): "); 
 		int today = input.nextInt();
 		
-		System.out.println("Enter the number of days elapsed since today: ");
+		System.out.print("Enter the number of days elapsed since today: ");
 		int nextDay = input.nextInt();
 
 		int nextDayNumber = (today + nextDay) % 7;
@@ -27,13 +27,13 @@ public class Homework05 {
 		}		
 		
 		switch (nextDayNumber) {
-		case 0: System.out.println(" the future day is Sunday"); break;
-		case 1: System.out.println(" the future day is Monday"); break;
-		case 2: System.out.println(" the future day is Thuesday"); break;
-		case 3: System.out.println(" the future day is Wednesday"); break;
-		case 4: System.out.println(" the future day is Thursday"); break;
-		case 5: System.out.println(" the future day is Friday"); break;
-		case 6: System.out.println(" the future day is Saturday"); break;
+		case 0: System.out.println(" the future day is Sunday."); break;
+		case 1: System.out.println(" the future day is Monday."); break;
+		case 2: System.out.println(" the future day is Thuesday."); break;
+		case 3: System.out.println(" the future day is Wednesday."); break;
+		case 4: System.out.println(" the future day is Thursday."); break;
+		case 5: System.out.println(" the future day is Friday."); break;
+		case 6: System.out.println(" the future day is Saturday."); break;
 		}				
 	} 
 }
