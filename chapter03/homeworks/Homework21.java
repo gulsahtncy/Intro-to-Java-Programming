@@ -6,6 +6,8 @@ public class Homework21 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
+		// Science: day of the week
+		
 		// h = (q + (26 * (m + 1) /10) + k + (k / 4) + (j / 4) + 5 * j ) % 7
 
 		System.out.println("Enter year:");
