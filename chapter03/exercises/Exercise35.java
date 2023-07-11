@@ -2,6 +2,7 @@ package chapter03.exercises;
 
 public class Exercise35 {
 	public static void main(String[] args) {
+		
 		/*
 		 A.
 			if (x > 10)
