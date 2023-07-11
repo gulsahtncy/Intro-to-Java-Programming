@@ -2,7 +2,7 @@ package chapter03.homeworks;
 
 public class Homework24 {
 	public static void main(String[] args) {
-		
+
 		// Game: pick a card
 
 		int rank = (int) (Math.random() * 13);
@@ -69,6 +69,7 @@ public class Homework24 {
 			break;
 		}
 
-		System.out.println("The card you picked is " + card + " of " + suitType);
+		System.out.print("The card you picked is " + card + " of " + suitType);
+	
 	}
 }
